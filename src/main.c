@@ -23,7 +23,7 @@ int main(int argc, char *argv[])
         return 1;
     }
 
-    //random_tree(&root, 10);
+    random_tree(&root, 10);
 
     dot_fmt(file, root);
 
